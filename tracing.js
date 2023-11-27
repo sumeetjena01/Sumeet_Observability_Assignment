@@ -15,7 +15,7 @@ const {
 } = require("@opentelemetry/instrumentation-mongodb");
 const {
   HttpInstrumentation,
-} = require("@opentelemetry/instrumentation-http://localhost:16686/);
+} = require("@opentelemetry/instrumentation-http://localhost:3000/todo");
 const { registerInstrumentations } = require("@opentelemetry/instrumentation");
 //Exporter
 module.exports = (serviceName) => {
